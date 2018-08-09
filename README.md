@@ -1,0 +1,9 @@
+2018年8月9日17:31:34
+开发环境：VS2015
+操作系统：Win10
+开发语言：C++
+功能：
+1、支持命令行输入加减乘除运算，以及包含四则运算的多项式，支持任意小括号的优先级运算。
+2、Counter类定义一个计算的抽象类，Plus，Minus，Mul，Div继承字Counter，并实现Counter类的纯虚函数counterResult()。
+3、自定义模板类实现链式LinkStack栈，实现push，pop，top，isEmpty，clear，size接口。
+4、Calculator类负责基于逆波兰表达式的多项式计算，计算时调用以上自定义类的接口。
